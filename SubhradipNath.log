@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.12) (preloaded format=xelatex 2023.1.7)  7 JAN 2023 22:01
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.12) (preloaded format=xelatex 2023.1.7)  7 JAN 2023 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./SubrataHalder.tex
-(SubrataHalder.tex
+**./SubhradipNath.tex
+(SubhradipNath.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (resume-openfont.cls
 Document Class: resume-openfont 2021/05/30 Abdullah's version
@@ -789,8 +789,8 @@ d]/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 Package: ulem 2019/11/18
 \ULdepth=\dimen175
 ))
-(SubrataHalder.aux)
-\openout1 = `SubrataHalder.aux'.
+(SubhradipNath.aux)
+\openout1 = `SubhradipNath.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -862,9 +862,13 @@ LaTeX Font Info:    ... okay on input line 30.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 30.
-(SubrataHalder.out) (SubrataHalder.out)
+(SubhradipNath.out) (SubhradipNath.out)
 \@outlinefile=\write3
-\openout3 = `SubrataHalder.out'.
+\openout3 = `SubhradipNath.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -932,7 +936,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 30.
 
-
 LaTeX Font Warning: Font shape `TU/Lato-Light(1)/m/sc' undefined
 (Font)              using `TU/Lato-Light(1)/m/n' instead on input line 59.
 
@@ -958,28 +961,28 @@ LaTeX Font Warning: Font shape `TU/Lato-Black(0)/b/n' undefined
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
 (Font)              using `TU/FontAwesome(0)/m/n' instead on input line 89.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 159.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 165.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 159.
+(Font)              size <5> substituted on input line 165.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 159.
+(Font)              size <5> substituted on input line 165.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 159.
+(Font)              <11> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 159.
+(Font)              <7.69997> on input line 165.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 159.
+(Font)              <5.5> on input line 165.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 159.
+(Font)              size <5> substituted on input line 165.
 
 [1
 
-] (SubrataHalder.aux)
+] (SubhradipNath.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -987,16 +990,22 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `SubrataHalder.out' has not changed.
-(rerunfilecheck)             Checksum: 5281A872F2981A65AC465765157D56E8;365.
+
+Package rerunfilecheck Warning: File `SubhradipNath.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SubhradipNath.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  5281A872F2981A65AC465765157D56E8;365.
  ) 
 Here is how much of TeX's memory you used:
- 18552 strings out of 411566
- 344108 string characters out of 2820185
- 1865973 words of memory out of 3000000
- 38408 multiletter control sequences out of 15000+600000
+ 18551 strings out of 411566
+ 344106 string characters out of 2820185
+ 1867973 words of memory out of 3000000
+ 38407 multiletter control sequences out of 15000+600000
  517132 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,11n,148p,373b,340s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on SubrataHalder.pdf (1 page).
+Output written on SubhradipNath.pdf (1 page).
