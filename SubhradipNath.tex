@@ -1,0 +1,177 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+
+% Create project heading. Parameters: Name, link, Tech stack
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+\newcommand{\projectHeadingWithDate}[4]{\Project{#1}{#2}
+\descript{#3 | #4}\\}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\textbf{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\teacherAssistant}[1]{\textbf{Teacher Assistant (TA):} #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Subhradip Nath}
+% How you want it to show up on the resume
+%\newcommand{\yourWebsite}{www.subratahalder.me}
+% vs how you want it to show up. If it's the same you can just replace "\yourWebsiteLink" with "yourWebsite"
+%\newcommand{\yourWebsiteLink}{https://www.subratahalder.me/}
+\newcommand{\yourEmail}{uniquesuvro@gmail.com}
+\newcommand{\yourPhone}{+918910213144}
+\newcommand{\githubUserName}{suvro96}
+\newcommand{\linkedInUserName}{uniquesuvro}
+
+% An alternate profile section 
+% \alignProfileTable
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \ralewayBold{\href{\yourWebsiteLink}{\Large \yourName}} & 
+%     Email : \href{mailto:\yourEmail}{\yourEmail}
+%     \\
+%     \href{https://github.com/\githubUserName}{GitHub://\githubUserName} & 
+%     Mobile : \yourPhone
+%     \\
+%     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & Website : \href{\yourWebsiteLink}{\yourWebsite}
+%     \\
+% \end{tabular*}
+
+\begin{center}
+    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+    \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \yourPhone $|$ 
+    \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
+    \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}} 
+    % $|$ \href{\yourWebsiteLink}{\underline{\yourWebsite}}
+\end{center}
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+\educationHeading{B.Sc General}{West Bengal State University(WBSU)}{Rishi Bankim Chandra College, ON}{2020}
+
+%\teacherAssistant{World Wide Web Information Systems Development}
+%\courseWork{DSA; OOP with Java; DBMS I; DBMS II; C; C++; Software Engineering and TQM; Computer Networks; Business Management; Unix and Shell Programming}
+\sectionsep
+
+% Put school first and degree second if your school is reputable
+\educationHeading{Higher Secondary (class XII)}{West Bengal Board of Higher Secondary Education}{Naihati Narendar VidyaNiketan, ON}{2015}
+
+%\teacherAssistant{World Wide Web Information Systems Development}
+%\courseWork{C; C++; DBMS; CN; Shell, Microprocessor, Computer Organization and Architecture}
+\sectionsep
+
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{ Projects}
+
+\projectHeading{FoodKart App}{https://github.com/SUVRO96/foodmart}{React.js, Redux, Css, Bootstrap, Express.js, MongoDb,mongoose, MERN stack}
+A Full Stack web \href{https://foodkartco.netlify.app/}{\underline{application}} to search and order food for different cities that calls api and performs CRUD operations from \href{https://github.com/SUVRO96/api_foodmart}{separate \underline{backend}}.\\
+\textit{Under the guidance of \textbf{Newton Schooi} Full Stack Web Development(MERN)} \\
+\sectionsep
+  
+\projectHeading{Img app}{https://github.com/SUVRO96/ImageSearchAndDownloadApp}{React.js, Css, Bootstrap, Fetch Api}
+A web \href{https://myimgdownload.netlify.app/}{\underline{application}} to search and download required images from a public api with filter search and pagination facilities.\\
+\textit{Under the guidance of \textbf{Newton Schooi} Full Stack Web Development(MERN)} \\
+\sectionsep
+
+\projectHeading{ATM management syatem}{https://github.com/SUVRO96/atmSystem}{Java, Oops, package}
+A java application based on ATM management for balance enquiry, add and reduce amount from an account.\\
+\textit{Under the guidance of \textbf{Newton Schooi} Full Stack Web Development(MERN)} \\
+\sectionsep
+
+\projectHeading{Github user search app}{https://github.com/SUVRO96/githubUserSearch}{React.js, Css, Bootstrap, Fetch Api}
+A web \href{https://gitsearchbysuvro.netlify.app/}{\underline{application}} to search github users without using perticular username.\\
+\textit{Under the guidance of \textbf{Newton Schooi} Full Stack Web Development(MERN)} \\
+\sectionsep
+
+%\href{https://www.hackerrank.com/subrata797979}{5* Java \underline{Hackerrank} with 9 certifications}
+
+%\section{Other Projects}
+
+\projectHeading{Newsfeed app}{https://github.com/SUVRO96/newsfeed}{React.js, Css, Bootsrap, Express.js, MongoDb, mongoose, Fetch API, MERN stack}
+A social media application to post and update status with like and comment options that calls api and performs CRUD operations from \href{https://github.com/SUVRO96/newsfeed_api}{separate \underline{backend}}.\\
+\textit{Under the guidance of \textbf{Newton Schooi} Full Stack Web Development(MERN)} \\
+\sectionsep
+
+\projectHeading{Rock-paper-scissors}{https://github.com/SUVRO96/JS-Mini-Project---1---JavaScript-Mini-Project---7lvpvrvxj1ud}{Html, Css, JavaScript}
+A single player \href{https://rock-paper-scissors-bysuvro.netlify.app/}{\underline{game}} with score display and winner decleration.\\
+\textit{Under the guidance of \textbf{Newton Schooi} Full Stack Web Development(MERN)} \\
+\sectionsep
+
+%\projectHeading{CollegeGate Revamped}{https://github.com/subrata797979/CollegeGateRevampedBackend}{Java, Spring MVC, Maven, Spring Boot, Angular Frontend}
+%A revamped version of my BSc. final year project in \textbf{Java Spring Boot} with \href{https://github.com/subrata797979/CollegeGateRevampedFrontend}{separate \textbf{angular} \underline{frontend}}.\\
+%\sectionsep
+
+
+% Example using bullets and dates 
+% \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
+% \begin{bullets}
+    % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
+% \end{bullets}
+% \sectionsep
+
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Certifications}
+\resumeHeading{Full Stack Web Development(MERN)}{\href{https://www.newtonschool.co/}{\underline{Newton School}}}{}{Dec 2022 – Jun 2022}
+\begin{bullets}
+    \item Full Stack Web Development with problem solving.
+    \item Technical Stack Learned- \textbf{HTML}, \textbf{CSS}, \textbf{JavaScript}, \textbf{Java}, \textbf{React.js}, \textbf{Node.js}, \textbf{Express.js}, \textbf{Bootstrap} and \textbf{MongoDB}.
+     \item Participated in various contests organized by the platform.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{Field Technician Computing and Peripherals}{N.S.D.C.}{}{Sep 2021 - Nov 2021}
+\begin{bullets}
+    \item Knowledge about Computer Hardware details and maintenance.
+    \item Basic Electronics and technical mechanism.
+\end{bullets}
+\sectionsep
+  
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{skillList}
+    \singleItem{Languages:}{Java, C, HTML, JavaScript, Bash, SQL}
+    \\
+    \singleItem{Web Development:}{JavaScript, React, TypeScript, Node, HTML/CSS/Bootstrap}
+    \\
+    \singleItem{Technology:}{MERN Stack, Postman, Git, MongoDB,VS Code, MYSQL}
+    \\
+    %\singleItem{Achievement:}{\href{https://www.hackerrank.com/subrata797979}{5* Java \underline{Hackerrank} with 9 certifications},\href{https://leetcode.com/subrata797979/}{ 300+ \underline{Leetcode} Solved},\href{https://drive.google.com/file/d/12bhO9nzDUkLcGOSTJybPe6MhMqX_wprU/view}{ 73.83\% TCS \underline{NQT}}}
+\end{skillList}
+
+% A more concise alternate 
+% \begin{skillList}
+%     \doubleItem{Languages:}{Java, C++, Python, C\#, PHP, Prolog, Bash, C, Racket}%
+%     {Databases:}{SQL, MongoDB, Neo4j, DynamoDB}
+%     \\
+%     \doubleItem{Web Development:}{JavaScript, TypeScript, React, HTML/CSS}
+%     {Technology:}{Git, AWS, GCP, Azure, Docker, \LaTeX}%
+% \end{skillList}
+\end{document}
